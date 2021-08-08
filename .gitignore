@@ -1,0 +1,8 @@
+.vs/
+bin/
+deploy/
+dist/
+node_modules/
+*.log
+*.njsproj*
+*.sln
