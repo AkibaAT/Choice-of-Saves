@@ -10,13 +10,13 @@ From your command line:
 
 ```bash
 # Clone this repository
-git clone https://github.com/Rejaku/Choice-of-Saves
+git clone https://github.com/AkibaAT/Choice-of-Saves
 # Go into the repository
-cd choice-of-saves
+cd Choice-of-Saves
 # Install dependencies
 npm install
 # Run the app
-npm start
+npm run run
 ```
 
 Click on the button, browse to your the app.asar of the game you want to patch, and select the file. That's all, start up the game in question, and the interface will now have save and load options.
