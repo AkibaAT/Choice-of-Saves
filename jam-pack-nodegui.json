@@ -1,0 +1,27 @@
+{
+  "fetch": {
+    "gitFromCwd": true
+  },
+  "build": {
+    "packageManager": "npm"
+  },
+  "prune": {
+    "skip": false,
+    "patterns": [
+      {
+        "keep": [
+          "LICENSE.txt",
+          "README.md",
+          "package.json",
+          "dist/*.js",
+          "dist/*.cjs",
+          "assets/*"
+        ]
+      }
+    ]
+  },
+  "addLauncher": {
+    "jsEntryPoint": "dist/main.cjs"
+  },
+  "quietQode": {}
+}

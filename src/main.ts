@@ -1,4 +1,3 @@
-import * as os from 'os';
 import * as tmp from 'tmp';
 import * as asar from 'asar';
 import * as fs from 'fs';

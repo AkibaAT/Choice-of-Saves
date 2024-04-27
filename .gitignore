@@ -4,6 +4,7 @@ bin/
 deploy/
 dist/
 node_modules/
+tmp-jam-pack-nodegui/
 *.log
 *.njsproj*
 *.sln

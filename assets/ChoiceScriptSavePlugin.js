@@ -254,7 +254,7 @@ ChoiceScriptSavePlugin._import = function (fileContent) {
 
 ChoiceScriptSavePlugin._createQuickSaveMenu = function() {
 
-    var p = document.getElementById("restartButton").parentElement;
+    var p = document.getElementById("buttons");
     if (!p) {
         alert("Error: unable to attach quick save menu");
         return;
